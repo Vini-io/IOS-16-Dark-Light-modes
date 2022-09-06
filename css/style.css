@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 100%;
+    background-color: #4a4a4a;
+    margin: 50px;
+    margin-bottom: 0;
+    transition: 2s;
+}
+
+.text-light {
+    transition: 2s;
+}
+
+
+.primeiro-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px;
+
+
+}
+
+
+h1 {
+    font-size: 128px;
+    font-weight: 500;
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+}
+
+.cont-contato {
+
+    display: flex;
+    font-size: 36px;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    color: #8C8C8C;
+
+}
+
+.segundo-cont {
+    display: flex;
+    justify-content: flex-start;
+    margin: 60px;
+}
+
+
+#ios16-cont {
+    color: #FFFFFF;
+    width: 348px;
+    height: 159px;
+    background: linear-gradient(180deg, #4eb5ff 0%, #0066FF 100%);
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 95px;
+    font-weight: 510;
+    border-radius: 30px;
+    transition: 2s;
+}
+
+
+
+.sub-title {
+    display: flex;
+    font-family: 'Sarala', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #A5A5A5;
+    width: 435px;
+    height: 159px;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+.container-sl2 {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+
+.ordem-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+
+
+
+
+
+.terceiro-cont {
+    display: flex;
+    flex-direction: row;
+    /* margin: 60px; */
+}
+
+
+
+
+.title-of-mode {
+    font-size: 33px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Sarala', sans-serif;
+    margin-bottom: 30px;
+
+
+}
+
+.img-duplo-bar {
+    width: 930px;
+    /* height: 220.67px; */
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0));
+}
+
+
+.troca-de-ilu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.luz {
+    cursor: pointer;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    transition: 2s;
+
+}
+
+.luz:hover {
+    box-shadow: 5px 5px 30px black;
+    transition: 2s;
+}
+
+
+.escuro {
+    cursor: pointer;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    border-radius: 100%;
+    transition: 2s;
+}
+
+.escuro:hover {
+    box-shadow: 5px 0px 30px white;
+    transition: 2s;
+}
+
+
+
+.quarto-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-right: 120px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+}
+
+.title-copy {
+    display: flex;
+    font-size: 33px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Sarala', sans-serif;
+    margin-bottom: 30px;
+}
+
+.img-bar {
+    display: flex;
+    width: 600px;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    body {
+        background-color: #0066ff;
+        margin: 0;
+    }
+
+
+        .primeiro-cont{
+            margin: 0;
+            margin-left: 5px;
+        }
+
+        .cont-contato {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            width: 100px;
+            align-items: flex-end;
+        }
+
+        #ios16-cont {
+            font-size: 45px;
+            box-shadow: 3px 3px 20px black;
+        }
+
+        .segundo-cont {
+            margin: 20px;
+
+        }
+
+        .sub-title {
+           
+            font-size: 38px;
+        }
+
+        .container-sl2 {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img-duplo-bar {
+
+            width: 330px;
+        }
+
+        .troca-de-ilu {
+            position: inherit;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .luz {
+            margin: 0;
+            position: inherit;
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+
+        .escuro {
+            margin: 0;
+            position: inherit;
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+        }
+
+    
+
+    .img-bar {
+        width: 300px;
+        display: flex;
+        margin: auto;
+
+    }
+
+    .title-copy {
+        display: flex;
+        justify-content: center;
+    }
+
+    .quarto-cont {
+        margin: 0;
+        display: flex;
+
+    }
+}
